@@ -1,0 +1,102 @@
+/* write your css here */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    font-family: "Poppins",sans-serif;
+}
+.Container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.title{
+    font-size: 3rem;
+    margin:6vh;
+    background-color: #6F57FF;
+    color: aliceblue;
+    /* border: 7px solid rgb(1,17,160); */
+    border-radius: 20px;
+    padding:1vh 5vw ;
+}
+.Cards{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width:1300px;
+    margin:0 auto;
+
+}
+.card{
+    width:400px;
+    height:max-content;
+    margin: 1rem;
+    padding: 1rem;
+    display:flex;
+    flex-direction:column;
+    border-radius:10px;
+    align-items: center;
+   
+    box-shadow: rgb(0,0,0,0.24) 0px 3px 8px;
+}
+.image{
+    width: 380px;
+    aspect-ratio: 1/1;
+}
+.tour-info{
+    margin: 20px 5px; 
+
+}
+.tour-name{
+    font-size:1.5rem;
+
+}
+.btn-red{
+    margin-top: 18px;
+    padding: 10px 80px;
+    border: 1px solid #b4161b;
+    cursor: pointer;
+    border-radius: 10px;
+    font: 18px;
+    font-weight: bold;
+    background-color: #b4161b21;
+}
+.btn-white{
+    background-color: rgb(165, 197, 225);
+    margin-top:18px;
+    padding:10px 80px;
+    border:1px solid white;
+}
+.btn-white:hover{
+ background-color: rgb(232, 206, 206);
+ transition:all 0.2s;
+ color: black;
+}
+.refresh{
+    display:flex;
+    height: 100vh;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+.btn-red:hover{
+    background-color:red;
+    color: aliceblue;
+    transition: all 0.2;
+
+}
+.read-more{
+    color:#12b0e8;
+    cursor: pointer;
+}
+.tour-price{
+    color:#1faa59;
+    font-size: 1.3rem;
+}
